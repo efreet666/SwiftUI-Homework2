@@ -17,6 +17,13 @@ struct ContentView: View {
         
         
             VStack{
+                NavigationView{
+                    
+                        NavigationLink(destination: SettingsView()){
+                            Text("show detail view")
+                        }
+                    
+                }
                 
                 Toggle(isOn: $isToggle, label: { Text("Боковое меню") })
                     .padding()
@@ -44,14 +51,16 @@ struct ContentView: View {
                 }.animation(.spring(response: 0.6, dampingFraction: 0.7, blendDuration: 0.6))
                 
                 
-                
-                
                 Button(action: {isError = !isError}, label: {Text(" Скачать ")}).alert(isPresented: $isError, content: {
                     Alert(title: Text("Скачать?"),
                           message: Text("Точно нужно?"),
                           primaryButton: Alert.Button.destructive(Text("Можно ненада")),
                           secondaryButton: Alert.Button.default(Text("Да!")))
                 })
+
+               
+                
+               
             }
     
     }
