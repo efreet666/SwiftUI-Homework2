@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F518B128282ADC3500EBE372 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F518B127282ADC3500EBE372 /* SettingsView.swift */; };
 		F590BFEB2826B167000898D3 /* SwiftUI_test1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F590BFEA2826B167000898D3 /* SwiftUI_test1App.swift */; };
 		F590BFED2826B167000898D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F590BFEC2826B167000898D3 /* ContentView.swift */; };
 		F590BFEF2826B169000898D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F590BFEE2826B169000898D3 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F518B127282ADC3500EBE372 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F590BFE72826B167000898D3 /* SwiftUI test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI test1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F590BFEA2826B167000898D3 /* SwiftUI_test1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_test1App.swift; sourceTree = "<group>"; };
 		F590BFEC2826B167000898D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				F590BFEA2826B167000898D3 /* SwiftUI_test1App.swift */,
 				F590BFEC2826B167000898D3 /* ContentView.swift */,
+				F518B127282ADC3500EBE372 /* SettingsView.swift */,
 				F590BFEE2826B169000898D3 /* Assets.xcassets */,
 				F590BFF02826B169000898D3 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F518B128282ADC3500EBE372 /* SettingsView.swift in Sources */,
 				F590BFED2826B167000898D3 /* ContentView.swift in Sources */,
 				F590BFEB2826B167000898D3 /* SwiftUI_test1App.swift in Sources */,
 			);
